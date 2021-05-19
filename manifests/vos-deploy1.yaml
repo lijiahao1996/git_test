@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: vos-deploy
+  name: vos-deploy
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: vos-deploy
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: vos-deploy
+    spec:
+      containers:
+      - image: registry.cn-beijing.aliyuncs.com/vos-test/vos-test:v1.0
+        name: vos-test
+        resources: {}
+status: {}
