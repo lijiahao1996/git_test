@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="689px" height="1544px" viewBox="0 0 689 1544" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组备份</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="689" height="1544"></rect>
+    </defs>
+    <g id="币印与VOS团队达成战略合作" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.151253634">
+        <g id="OVS系统介绍-动效说明" transform="translate(0.000000, -1035.000000)">
+            <g id="Fill-1-+-Fill-2-+-Fill-3-+-Fill-4-+-Fill-5-+-Fill-6-蒙版" transform="translate(0.000000, 1035.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="蒙版"></g>
+                <polygon id="Fill-1" fill="#8C8C8C" mask="url(#mask-2)" points="-231 893.365948 204.290989 1116.97656 204.290989 18.2983431"></polygon>
+                <polygon id="Fill-2" fill="#343434" mask="url(#mask-2)" points="204.157189 17.998952 204.157189 1116.97761 640.950374 893.366996"></polygon>
+                <polygon id="Fill-3" fill="#8C8C8C" mask="url(#mask-2)" points="204.292386 1480.10485 204.292386 1138.07577 -230.998603 925.371806"></polygon>
+                <polygon id="Fill-4" fill="#3C3C3B" mask="url(#mask-2)" points="204.157189 1138.07682 204.157189 1480.10589 644.443853 925.372855"></polygon>
+                <polygon id="Fill-5" fill="#141414" mask="url(#mask-2)" points="204.292386 1116.97656 643.698694 895.444568 204.156141 662.883665"></polygon>
+                <polygon id="Fill-6" fill="#393939" mask="url(#mask-2)" points="-231 893.365948 204.290989 1116.97656 204.158237 660.948277"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
