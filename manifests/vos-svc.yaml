@@ -12,5 +12,6 @@ spec:
     targetPort: 8080
   selector:
     app: vos-deploy
+  type: ClusterIP
 status:
   loadBalancer: {}
