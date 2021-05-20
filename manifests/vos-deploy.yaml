@@ -18,7 +18,7 @@ spec:
         app: vos-deploy
     spec:
       containers:
-      - image: registry.cn-beijing.aliyuncs.com/vos-test/vos-test:${IMAGE}
+      - image: ${IMAGE}
         name: vos-test
         resources: {}
 status: {}
