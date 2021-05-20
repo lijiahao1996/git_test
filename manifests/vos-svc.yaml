@@ -3,8 +3,8 @@ kind: Service
 metadata:
   creationTimestamp: null
   labels:
-    app: vos-deploy
-  name: vos-deploy
+    app: vos-svc
+  name: vos-svc
 spec:
   ports:
   - port: 80

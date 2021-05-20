@@ -1,45 +1,19 @@
 apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
-  annotations:
-    nginx.ingress.kubernetes.io/service-weight: ''
-  creationTimestamp: '2021-05-19T10:18:09Z'
-  generation: 1
-  managedFields:
-    - apiVersion: extensions/v1beta1
-      fieldsType: FieldsV1
-      fieldsV1:
-        'f:metadata':
-          'f:annotations':
-            .: {}
-            'f:nginx.ingress.kubernetes.io/service-weight': {}
-        'f:spec':
-          'f:rules': {}
-      manager: Apache-HttpClient
-      operation: Update
-      time: '2021-05-19T10:18:09Z'
-    - apiVersion: networking.k8s.io/v1beta1
-      fieldsType: FieldsV1
-      fieldsV1:
-        'f:status':
-          'f:loadBalancer':
-            'f:ingress': {}
-      manager: nginx-ingress-controller
-      operation: Update
-  name: vos-test
+  name: vos-ingress
   namespace: test-test
+  selfLink: /apis/extensions/v1beta1/namespaces/test-test/ingresses/vos-test
 spec:
   rules:
     - host: test.lijiahao.cool
       http:
         paths:
           - backend:
-              serviceName: vos-deploy
+              serviceName: vos-svc
               servicePort: 80
             path: /
             pathType: ImplementationSpecific
 status:
   loadBalancer:
     ingress:
-      - ip: 8.140.165.11
-
