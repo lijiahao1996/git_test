@@ -17,3 +17,7 @@ spec:
       containers:
       - image: ${IMAGE}
         name: vos-test
+      imagePullSecrets:
+        - name: vos-docker-secret
+      restartPolicy: Always
+      schedulerName: default-scheduler

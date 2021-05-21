@@ -24,4 +24,5 @@ spec:
       secretName: vos-ingress-secret
 status:
   loadBalancer:
-    ingress:
+    ingress: 
+      - ip: 8.140.24.190
