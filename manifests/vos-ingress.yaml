@@ -21,7 +21,7 @@ spec:
   tls:
     - hosts:
         - test.lijiahao.cool
-      secretName: vos-ingress-secret
+      secretName: vos-ingress-secret1621574105329
 status:
   loadBalancer:
     ingress: 

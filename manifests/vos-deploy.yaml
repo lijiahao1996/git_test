@@ -18,6 +18,6 @@ spec:
       - image: ${IMAGE}
         name: vos-test
       imagePullSecrets:
-        - name: vos-docker-secret
+        - name: docker-secret
       restartPolicy: Always
       schedulerName: default-scheduler
